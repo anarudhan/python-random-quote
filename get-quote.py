@@ -1,6 +1,6 @@
 import random
 
-def main():
+def primary():
   #print("Keep it logically awesome.")
 
   f = open("quotes.txt")
@@ -8,7 +8,7 @@ def main():
   f.close()
 
   last = 13
-  rnd = random.rndint(0, last)
+  rnd = random.randint(0, last)
 
   print(quotes[rnd])
 
